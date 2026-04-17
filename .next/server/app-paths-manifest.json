@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/pharmaceutical-chemicals/page": "app/pharmaceutical-chemicals/page.js",
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/quality-assurance/page": "app/quality-assurance/page.js",
+  "/products/page": "app/products/page.js"
+}
