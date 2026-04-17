@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Script from 'next/script';
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Pure One Pharma – Trusted Healthcare & Pharmaceutical Supplier",
   description: "Welcome to Pure One Pharma — your reliable partner for PCD Pharma Franchise, third-party manufacturing, and high-quality pharmaceutical formulations.",
 };
+
+import FloatingItems from "@/components/FloatingItems";
 
 export default function RootLayout({
   children,
@@ -24,6 +27,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <FloatingItems />
         
         {/* Scripts */}
         <Script src="/assets/js/jquery-3.6.0.min.js" strategy="beforeInteractive" />
